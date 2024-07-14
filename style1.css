@@ -1,0 +1,10 @@
+h1{
+    color: blueviolet;
+}
+.special{
+    color: yellow;font-weight: bold;
+}
+a:hover{
+    color: aqua;text-decoration: none;
+}
+li[class]{list-style-type: none;}
