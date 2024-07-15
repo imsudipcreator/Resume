@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
+    <link rel="stylesheet" href="stylepayment.css">
 </head>
-<body>
+<body><div class="container">
     <form action="">
-        <h1>Payment Form</h1>
+        <h1 class="main_heading">Payment Form</h1>
+        <hr>
         <h2>Contact Information</h2>
-        <p>Name: <input type="text" name="name" required></p>
+        <p>Name: <input type="text" name="name" required placeholder="Sudip Mahata"></p>
         <p>
             <fieldset>
                 <legend>Gender</legend>
@@ -17,11 +19,10 @@
             Female <input type="radio" name="gender" id="Female" required>
         </fieldset>
         </p>
-        <p>
-            Address: <textarea name="address" id="address" cols="150" rows="6"></textarea>
+        <p>Address: <textarea name="address" id="address" cols="165" rows="7"></textarea>
         </p>
-        <p>Email: <input type="email" name="email" id="email" required> </p>
-        <p>Pincode: <input type="number" name="pincode" id="pincode" required></p>
+        <p>Email: <input type="email" name="email" id="email" required placeholder="***.gmail.com"> </p>
+        <p>Pincode: <input type="number" name="pincode" id="pincode" required placeholder="123456"></p>
         <hr>
         <h2>Payment Information</h2>
         <p>Card Type:
@@ -44,6 +45,7 @@
         </p>
         <input type="submit" value="Pay Now">
     </form>
+</div>
     
 </body>
 </html>
